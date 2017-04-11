@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    display: block;
+    width: 95vw;
+    height: 95vh;
+    background-color:#f2f2f2;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 40%;
+}
+
+#quoteAuthor {
+    font-style: italic;
+}
+
+#get-another-quote-button {
+    float: right;
+}
